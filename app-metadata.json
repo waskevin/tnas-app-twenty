@@ -1,21 +1,13 @@
 {
-  "number": 26,
   "name": "Twenty",
   "source": "https://twenty.com",
-  "docker_hub": "twentycrm/twenty",
-  "tag": "v2",
+  "docker_image": "twentycrm/twenty:v2",
+  "version": "v2",
   "repository": "https://github.com/waskevin/tnas-app-twenty",
-  "dual_arch": true,
   "architectures": [
-    "amd64",
-    "arm64"
+    "linux/amd64",
+    "linux/arm64"
   ],
-  "screenshot_path": "precheck-screenshots/twenty/x86_64/run.png",
-  "screenshot_status": "pending",
-  "developer_name": "管浩良",
-  "developer_email": "k.kuan@qq.com",
-  "submission_status": "not_submitted",
-  "scheduled_publish": "20:00",
-  "runtime_status": "startup_failed",
-  "runtime_note": "app-1  | psql: error: connection to server on socket \"/run/postgresql/.s.PGSQL.5432\" failed: No such file or directory"
+  "description": "Twenty container application prepared for TerraMaster TOS",
+  "submission_status": "not_submitted"
 }
