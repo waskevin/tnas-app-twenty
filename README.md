@@ -45,3 +45,11 @@ docker run -d --name twenty --restart unless-stopped -e TZ=Asia/Shanghai twentyc
 
 - 上游：https://twenty.com
 - 镜像：https://hub.docker.com/r/twentycrm/twenty
+
+
+## 仓库文件
+
+- README.md：项目说明与双架构部署说明。
+- pp-metadata.json：镜像、版本和架构元数据。
+- docker-compose.yml：基础容器启动示例。
+
